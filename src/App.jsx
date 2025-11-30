@@ -315,7 +315,7 @@ function App() {
 
       {loading && <div style={{ color: "#0b63d6", marginBottom: 12 }}>Processing… ⏳ (this can take a bit for multiple pages)</div>}
 
-      {!loading && results.length === 0 && <div style={{ color: "#555" }}>Upload your PDFs (same hospital templates) to extract structured fields.</div>}
+      {!loading && results.length === 0 && <div style={{ color: "#555" }}>Upload your PDFs  to extract structured fields.</div>}
 
       <div style={{ marginTop: 12, display: "grid", gap: 16 }}>
         {results.map((res, idx) => (
